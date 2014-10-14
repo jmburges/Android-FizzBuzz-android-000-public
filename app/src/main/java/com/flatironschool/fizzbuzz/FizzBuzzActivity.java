@@ -19,7 +19,7 @@ public class FizzBuzzActivity extends ActionBarActivity {
         setContentView(R.layout.activity_fizz_buzz);
 
         //Here we sample using our FizzBuzz class and it's fizzBuzzes() method 
-        FizzBuzz fizzBuzz = new FizzBuzz(0, 100);
+        FizzBuzz fizzBuzz = new FizzBuzz(0, 15);
         String[] fizzBuzzArray = fizzBuzz.fizzBuzzes();
         Log.i(TAG, Arrays.toString(fizzBuzzArray));
     }
